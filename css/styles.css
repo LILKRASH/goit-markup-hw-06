@@ -117,6 +117,10 @@ button {
 
 @media screen and (max-width: 767px) {
   .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
     position: fixed;
     top: 0;
     left: 0;
@@ -175,8 +179,6 @@ button {
   }
 
   .mobile-menu-wrapper {
-    padding-top: 72px;
-    margin-bottom: 168px;
   }
 
   .mobile-menu-item {
@@ -741,7 +743,7 @@ button {
   border-radius: 4px;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -53.5%);
+  transform: translate(-50%, -50%);
   border-radius: 4px;
   background-color: #fcfcfc;
   padding: 72px 24px 24px 24px;
@@ -1376,30 +1378,25 @@ button {
   /* ========== /PORTFOLIO DESKTOP STYLES ========== */
 
   /* ========== FOOTER DESKTOP STYLES ========== */
-  .footer.info {
-    padding: 0;
+  .footer-info {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
   }
 
   .wrapper-content {
     flex-wrap: nowrap;
-    padding: 0;
     margin: 0;
+    padding: 0;
     max-width: 1158px;
   }
 
   .wrapper-info {
-    padding-left: 156px;
-    padding-top: 101.5px;
     margin-right: 120px;
   }
 
   .wrapper-networks {
-    padding-top: 100px;
     margin-right: 80px;
-  }
-
-  .subscribe-footer-wrapper {
-    padding-top: 100px;
   }
 
   .footer-description {

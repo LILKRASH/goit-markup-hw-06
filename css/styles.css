@@ -232,6 +232,7 @@ button {
   }
 
   .networks-list-menu-mobile {
+    margin-top: 48px;
     display: flex;
   }
 
